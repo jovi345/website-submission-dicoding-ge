@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+  background-color: #86be43;
+  color: white;
+}
+
+nav h1 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  background-color: #232323;
+  color: white;
+  font-weight: 300;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 22em;
+  height: 22em;
+}
+
+.profile h3 {
+  margin-top: 1em;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 1000px;
+  gap: 20px;
+}
+
+.profile-content > div {
+  flex: 1;
+}
+
+.profile-info p {
+  border-bottom: 1px solid #ccccccdc;
+  padding-bottom: 16px;
+}
+
+.find-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.find-me .icon {
+  display: flex;
+}
+
+.find-me img {
+  height: 3em;
+  width: 3em;
+  margin-top: 1em;
+}
+
+.find-me #mid-icon {
+  margin-right: 4em;
+  margin-left: 4em;
+}
