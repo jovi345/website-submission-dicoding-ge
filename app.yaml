@@ -1,0 +1,12 @@
+runtime: nodejs20
+
+service: dicoding-submission-gce-1
+
+handlers:
+  - url: /
+    static_files: index.html
+    upload: index.html
+
+  - url: /styles.css
+    static_files: styles.css
+    upload: styles.css
